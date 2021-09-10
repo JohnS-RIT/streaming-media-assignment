@@ -1,0 +1,26 @@
+{
+  "name": "streaming-media-assignment",
+  "version": "1.0.0",
+  "description": "Basic node to stream media",
+  "main": "./src/server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests Complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JohnS-RIT/streaming-media-assignment.git"
+  },
+  "author": "John Sniffen",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/JohnS-RIT/streaming-media-assignment/issues"
+  },
+  "homepage": "https://github.com/JohnS-RIT/streaming-media-assignment#readme",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.24.2"
+  }
+}
